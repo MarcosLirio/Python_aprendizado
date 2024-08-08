@@ -1,4 +1,4 @@
-
-msg = 'Olá, Mundo!';
-print(msg);
+#Crie um programa que escreva
+msg = 'Olá, Mundo!'
+print(msg)
 
