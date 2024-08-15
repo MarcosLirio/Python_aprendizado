@@ -29,6 +29,6 @@ elif opcao == 4:
     valor_final = valor_compra + juros
     parcelas = int(input('Em quantas parecelas? '))
     valor_parcelas = valor_final / parcelas
-    print('Valor da Compra: R${:.2f} \nJuros: {:.2f} \nValor Parcelas: {:.2f} \n Valor Final: {:.2f'.format(valor_compra, juros, valor_parcelas, valor_final))
+    print('Valor da Compra: R${:.2f} \nJuros: {:.2f} \nValor Parcelas: {:.2f} \n Valor Final: {:.2f}'.format(valor_compra, juros, valor_parcelas, valor_final))
 else:
     print('Opção inválida! Tente novamente.')
