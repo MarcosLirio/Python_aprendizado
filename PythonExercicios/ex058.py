@@ -18,9 +18,11 @@ while jogador > 10:
     c += 1
     print('Opção inválida. Esse número é maior que 10. Tente novamente')
     jogador = int(input('Qual é o seu palpite? '))
-'''while jogador == ''
+'''
+while jogador == ''
     print('Opção inválida. voçê não digitou nenhum número. Tente novamente')
-    jogador = int(input('Qual é o seu palpite? '))'''
+    jogador = int(input('Qual é o seu palpite? '))
+'''
 print('PROCESSANDO...')
 sleep(3)
 if jogador == computador:
@@ -50,3 +52,22 @@ else:
         if jogador == computador:
             print('Parabéns! Voçê conseguiu me vencer')
             print('Para me vencer voçê tentou {} vezes'.format(c + 1))
+
+'''from random import randint
+computador = randint(0, 10)
+print('Sou seu computador.. Acabei de pensar em um número entre 0 e 10.')
+print('Será que voçê consegue adivinhar qual foi?')
+acertou = False
+palpites = 0
+while not in acertou:
+    jogador = int(input('Qual é o seu palpite? '))
+    palpites += 1
+    if jogador == computador:
+        acertou = True
+    else:
+        if jogador < computador:
+            print('Mais... Tente mais uma vez.')
+        elif jogador > computador:
+            print('Menos... Tente mais uma vez')
+print('Acertou com {} tentativas. Parabéns!'.format(palpites))
+'''
